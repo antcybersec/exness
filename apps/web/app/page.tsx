@@ -1,12 +1,11 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-white">
       <Header />
-      <main className="p-4">
-        <h1 className="text-2xl font-bold font-ibm-plex-mono">Exness Trading Platform</h1>
-      </main>
+      <Hero />
     </div>
   );
 }
